@@ -1,0 +1,2271 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Marketing Data Google Ads 6th june)' inline='true' name='federated.106k2gn03qz5iw1glmjqw1ma6zhk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Marketing Data Google Ads 6th june' name='excel-direct.0ec424y0sfyyr41676nu21t17jao'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/91845/Downloads/Marketing Data Google Ads 6th june.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ec424y0sfyyr41676nu21t17jao' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D49:no:A1:D49:0' header='yes' outcome='6'>
+            <column datatype='datetime' name='Sr no' ordinal='0' />
+            <column datatype='integer' name='Impressions' ordinal='1' />
+            <column datatype='real' name='Clicks' ordinal='2' />
+            <column datatype='real' name='Sales Unit' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ec424y0sfyyr41676nu21t17jao' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D49:no:A1:D49:0' header='yes' outcome='6'>
+            <column datatype='datetime' name='Sr no' ordinal='0' />
+            <column datatype='integer' name='Impressions' ordinal='1' />
+            <column datatype='real' name='Clicks' ordinal='2' />
+            <column datatype='real' name='Sales Unit' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D49:no:A1:D49:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sr no</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Sr no]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sr no</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA8F819CD18442DF8460D17723365BB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA8F819CD18442DF8460D17723365BB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clicks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Clicks]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Clicks</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA8F819CD18442DF8460D17723365BB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Unit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Unit]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sales Unit</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA8F819CD18442DF8460D17723365BB9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_CA8F819CD18442DF8460D17723365BB9]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_CA8F819CD18442DF8460D17723365BB9'>
+            <properties context=''>
+              <relation connection='excel-direct.0ec424y0sfyyr41676nu21t17jao' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D49:no:A1:D49:0' header='yes' outcome='6'>
+                  <column datatype='datetime' name='Sr no' ordinal='0' />
+                  <column datatype='integer' name='Impressions' ordinal='1' />
+                  <column datatype='real' name='Clicks' ordinal='2' />
+                  <column datatype='real' name='Sales Unit' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Marketing Data Google Ads 6th june)' name='federated.106k2gn03qz5iw1glmjqw1ma6zhk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.106k2gn03qz5iw1glmjqw1ma6zhk'>
+            <column datatype='real' name='[Clicks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sales Unit]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Sr no]' role='dimension' type='ordinal' />
+            <column-instance column='[Clicks]' derivation='Sum' name='[sum:Clicks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales Unit]' derivation='Sum' name='[sum:Sales Unit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sr no]' derivation='Hour-Trunc' name='[thr:Sr no:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]' field-type='quantitative' max='#1899-12-31 00:14:28.660#' min='#1899-12-29 22:45:40.926#' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]' field-type='quantitative' max='264.93943882218008' min='-14.827463460697986' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk] + ([federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk] + [federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]))</rows>
+        <cols>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13680.006000000001</value>
+                <value>397710</value>
+                <value>95.760042000000013</value>
+                <value>#22:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16558.370000000003</value>
+                <value>478621</value>
+                <value>115.90859</value>
+                <value>#00:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>25.770000000000003</value>
+                <value>2577</value>
+                <value>0.18039000000000002</value>
+                <value>#01:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>39.5</value>
+                <value>3950</value>
+                <value>0.27650000000000002</value>
+                <value>#02:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.5700000000000003</value>
+                <value>557</value>
+                <value>0.038989999999999997</value>
+                <value>#03:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.3000000000000003</value>
+                <value>330</value>
+                <value>0.023100000000000002</value>
+                <value>#04:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.7000000000000002</value>
+                <value>670</value>
+                <value>0.046900000000000004</value>
+                <value>#05:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>62.409999999999997</value>
+                <value>6241</value>
+                <value>0.43686999999999998</value>
+                <value>#06:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>391.31</value>
+                <value>20633</value>
+                <value>2.7391699999999997</value>
+                <value>#07:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>981.22500000000002</value>
+                <value>30584</value>
+                <value>6.8685749999999999</value>
+                <value>#08:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1152.8679999999999</value>
+                <value>30719</value>
+                <value>8.0700760000000002</value>
+                <value>#09:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>638.95600000000002</value>
+                <value>19709</value>
+                <value>4.4726920000000003</value>
+                <value>#10:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='12' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>460.00800000000004</value>
+                <value>24624</value>
+                <value>3.220056</value>
+                <value>#11:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='13' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1386.297</value>
+                <value>44977</value>
+                <value>9.7040790000000001</value>
+                <value>#12:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='14' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3264.6655999999998</value>
+                <value>230397</value>
+                <value>22.852659199999998</value>
+                <value>#13:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='15' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3455.1199999999999</value>
+                <value>163826</value>
+                <value>24.185839999999999</value>
+                <value>#14:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='16' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>495.80999999999995</value>
+                <value>16527</value>
+                <value>3.4706699999999997</value>
+                <value>#15:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='17' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1013.0139999999999</value>
+                <value>32109</value>
+                <value>7.0910979999999988</value>
+                <value>#16:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='18' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>948.08699999999999</value>
+                <value>29455</value>
+                <value>6.636609</value>
+                <value>#17:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='19' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2700.7780000000002</value>
+                <value>62117</value>
+                <value>18.905446000000001</value>
+                <value>#18:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='20' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>491.12</value>
+                <value>34883</value>
+                <value>3.43784</value>
+                <value>#19:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='21' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>272.71000000000004</value>
+                <value>27271</value>
+                <value>1.9089700000000001</value>
+                <value>#20:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='22' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>435.87200000000001</value>
+                <value>39600</value>
+                <value>3.0511040000000005</value>
+                <value>#21:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='23' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>35841.311999999998</value>
+                <value>509010</value>
+                <value>250.889184</value>
+                <value>#23:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='24' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16558.370000000003</value>
+                <value>478621</value>
+                <value>115.90859</value>
+                <value>#00:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='25' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>25.770000000000003</value>
+                <value>2577</value>
+                <value>0.18039000000000002</value>
+                <value>#01:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='26' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>39.5</value>
+                <value>3950</value>
+                <value>0.27650000000000002</value>
+                <value>#02:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='27' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.5700000000000003</value>
+                <value>557</value>
+                <value>0.038989999999999997</value>
+                <value>#03:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='28' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.3000000000000003</value>
+                <value>330</value>
+                <value>0.023100000000000002</value>
+                <value>#04:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='29' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.7000000000000002</value>
+                <value>670</value>
+                <value>0.046900000000000004</value>
+                <value>#05:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='30' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>62.409999999999997</value>
+                <value>6241</value>
+                <value>0.43686999999999998</value>
+                <value>#06:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='31' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>391.31</value>
+                <value>20633</value>
+                <value>2.7391699999999997</value>
+                <value>#07:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='32' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>981.22500000000002</value>
+                <value>30584</value>
+                <value>6.8685749999999999</value>
+                <value>#08:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='33' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1152.8679999999999</value>
+                <value>30719</value>
+                <value>8.0700760000000002</value>
+                <value>#09:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='34' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>638.95600000000002</value>
+                <value>19709</value>
+                <value>4.4726920000000003</value>
+                <value>#10:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='35' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>460.00800000000004</value>
+                <value>24624</value>
+                <value>3.220056</value>
+                <value>#11:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='36' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1386.297</value>
+                <value>44977</value>
+                <value>9.7040790000000001</value>
+                <value>#12:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='37' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3264.6655999999998</value>
+                <value>230397</value>
+                <value>22.852659199999998</value>
+                <value>#13:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='38' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3455.1199999999999</value>
+                <value>163826</value>
+                <value>24.185839999999999</value>
+                <value>#14:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='39' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>495.80999999999995</value>
+                <value>16527</value>
+                <value>3.4706699999999997</value>
+                <value>#15:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='40' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1013.0139999999999</value>
+                <value>32109</value>
+                <value>7.0910979999999988</value>
+                <value>#16:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='41' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>948.08699999999999</value>
+                <value>29455</value>
+                <value>6.636609</value>
+                <value>#17:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='42' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2700.7780000000002</value>
+                <value>62117</value>
+                <value>18.905446000000001</value>
+                <value>#18:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='43' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>491.12</value>
+                <value>34883</value>
+                <value>3.43784</value>
+                <value>#19:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='44' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>272.71000000000004</value>
+                <value>27271</value>
+                <value>1.9089700000000001</value>
+                <value>#20:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='45' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>435.87200000000001</value>
+                <value>39600</value>
+                <value>3.0511040000000005</value>
+                <value>#21:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='46' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13680.006000000001</value>
+                <value>397710</value>
+                <value>95.760042000000013</value>
+                <value>#22:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='47' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>35841.311999999998</value>
+                <value>509010</value>
+                <value>250.889184</value>
+                <value>#23:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='48' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>16558.370000000003</value>
+                <value>478621</value>
+                <value>115.90859</value>
+                <value>#00:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='49' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>25.770000000000003</value>
+                <value>2577</value>
+                <value>0.18039000000000002</value>
+                <value>#01:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='50' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>39.5</value>
+                <value>3950</value>
+                <value>0.27650000000000002</value>
+                <value>#02:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='51' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5.5700000000000003</value>
+                <value>557</value>
+                <value>0.038989999999999997</value>
+                <value>#03:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='52' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3.3000000000000003</value>
+                <value>330</value>
+                <value>0.023100000000000002</value>
+                <value>#04:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='53' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6.7000000000000002</value>
+                <value>670</value>
+                <value>0.046900000000000004</value>
+                <value>#05:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='54' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>62.409999999999997</value>
+                <value>6241</value>
+                <value>0.43686999999999998</value>
+                <value>#06:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='55' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>391.31</value>
+                <value>20633</value>
+                <value>2.7391699999999997</value>
+                <value>#07:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='56' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>981.22500000000002</value>
+                <value>30584</value>
+                <value>6.8685749999999999</value>
+                <value>#08:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='57' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1152.8679999999999</value>
+                <value>30719</value>
+                <value>8.0700760000000002</value>
+                <value>#09:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='58' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>638.95600000000002</value>
+                <value>19709</value>
+                <value>4.4726920000000003</value>
+                <value>#10:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='59' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>460.00800000000004</value>
+                <value>24624</value>
+                <value>3.220056</value>
+                <value>#11:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='60' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1386.297</value>
+                <value>44977</value>
+                <value>9.7040790000000001</value>
+                <value>#12:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='61' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3264.6655999999998</value>
+                <value>230397</value>
+                <value>22.852659199999998</value>
+                <value>#13:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='62' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3455.1199999999999</value>
+                <value>163826</value>
+                <value>24.185839999999999</value>
+                <value>#14:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='63' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>495.80999999999995</value>
+                <value>16527</value>
+                <value>3.4706699999999997</value>
+                <value>#15:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='64' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1013.0139999999999</value>
+                <value>32109</value>
+                <value>7.0910979999999988</value>
+                <value>#16:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='65' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>948.08699999999999</value>
+                <value>29455</value>
+                <value>6.636609</value>
+                <value>#17:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='66' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2700.7780000000002</value>
+                <value>62117</value>
+                <value>18.905446000000001</value>
+                <value>#18:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='67' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>491.12</value>
+                <value>34883</value>
+                <value>3.43784</value>
+                <value>#19:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='68' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>272.71000000000004</value>
+                <value>27271</value>
+                <value>1.9089700000000001</value>
+                <value>#20:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='69' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>435.87200000000001</value>
+                <value>39600</value>
+                <value>3.0511040000000005</value>
+                <value>#21:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='70' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13680.006000000001</value>
+                <value>397710</value>
+                <value>95.760042000000013</value>
+                <value>#22:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='71' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Clicks:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Impressions:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[sum:Sales Unit:qk]</field>
+                  <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[thr:Sr no:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>35841.311999999998</value>
+                <value>509010</value>
+                <value>250.889184</value>
+                <value>#23:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{C6595EBE-6AC5-4805-BF8F-F4EC5D0A582E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.106k2gn03qz5iw1glmjqw1ma6zhk].[yr:Sr no:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AFE2D0A7-B08C-4C16-A6FF-CB36B1E9B952}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
